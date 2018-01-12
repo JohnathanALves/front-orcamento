@@ -1,19 +1,24 @@
 <template>
   <div class="corpo">
-    <router-view></router-view>
+    <navbar></navbar>
   </div>
 </template>
 
 <script>
-import { routes } from './routes';
+import Navbar from "./components/navbar.vue";
+import { routes } from "./routes";
 
 export default {
+  components: {
+    Navbar
+  },
+
   data() {
     return {
       routes
-    }
-  }  
-}
+    };
+  }
+};
 </script>
 
 <style scoped>
