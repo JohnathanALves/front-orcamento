@@ -5,8 +5,10 @@
 </template>
 
 <script>
+
 import Navbar from "./components/navbar.vue";
 import { routes } from "./routes";
+
 
 export default {
   components: {

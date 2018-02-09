@@ -4,6 +4,10 @@ import VueRouter from 'vue-router';
 import { routes } from './routes';
 import VueResource from 'vue-resource';
 
+import BootstrapVue from 'bootstrap-vue';
+
+Vue.use(BootstrapVue);
+
 const router = new VueRouter({
     routes,
     mode: 'history'
